@@ -1,0 +1,108 @@
+{
+  "React Function Component": {
+    "scope": "typescriptreact",
+    "prefix": "rc",
+    "body": [
+      "import React from 'react'",
+      "",
+      "type PropsType = {",
+      "$1",
+      "};",
+      "",
+      "export const $TM_FILENAME_BASE: React.FC<PropsType> = ({$2}) => {",
+      "\t\treturn ($3);",
+      "}"
+    ],
+    "description": "Typescript React Function Component Boilerplate"
+  },
+  "Styled Components Component": {
+    "prefix": "stl",
+    "body": ["const Styled$1 = styled.$2`", "$3", "`;"],
+    "description": "Styled Components Component Boilerplate"
+  },
+  "Props Type With Children": {
+    "prefix": "ptc",
+    "body": ["type PropsType = {", "children: React.ReactNode;", "$1", "}"],
+    "description": "Props Type With Children"
+  },
+  "Props Type": {
+    "prefix": "pt",
+    "body": ["type PropsType = {", "$1", "}"],
+    "description": "Props Type"
+  },
+  "Children Prop": {
+    "prefix": "chi",
+    "body": ["children: React.ReactNode;"],
+    "description": "Children Prop Type"
+  },
+  "Styled Components Theme": {
+    "prefix": "th",
+    "body": ["${({ theme }) => theme.$1 };"],
+    "description": "Styled Components Theme"
+  },
+  "Styled Components Context": {
+    "prefix": "ct",
+    "body": ["${({ $1 }) => $2 };"],
+    "description": "Styled Components Context"
+  },
+  "Media Query Breakpoint Down": {
+    "prefix": "med",
+    "body": ["${mediaBreakpointDown('$1')} {", "", "$2", "}"],
+    "description": "Media Query Breakpoint Down"
+  },
+  "Media Query Breakpoint Up": {
+    "prefix": "meu",
+    "body": ["${mediaBreakpointUp('$1')} {", "", "$2", "}"],
+    "description": "Media Query Breakpoint Up"
+  },
+  "Javascript React Arrow Function ": {
+    "prefix": "arw",
+    "body": ["const ${functionName} = (${params}) => {", "", "}"],
+    "description": "Javascript React Arrow Function BoilerPlate"
+  },
+  "Constant": {
+    "prefix": "cst",
+    "body": ["const ${name} = ${value}"],
+    "description": "Create Constant"
+  },
+  "Destructure Constant": {
+    "prefix": "cstd",
+    "body": ["const {${name}} = ${value}"],
+    "description": "Create Destructure Constant"
+  },
+  "React useState Hook": {
+    "prefix": "ust",
+    "body": ["const [${value}, ${setValue}] = React.useState(${null})"],
+    "description": "React useState Hook"
+  },
+  "React useEffect Hook": {
+    "prefix": "usef",
+    "body": ["React.useEffect(()=>{", "$1", "},[$2])"],
+    "description": "React useEffect Hook"
+  },
+  "React useMemo Hook": {
+    "prefix": "usme",
+    "body": ["const $1 = React.useMemo(()=>{", "$2", "},[])"],
+    "description": "React useMemo Hook"
+  },
+  "React useCallback Hook": {
+    "prefix": "usca",
+    "body": ["const $1 = React.useCallback(()=>{", "$2", "},[])"],
+    "description": "React useCallback Hook"
+  },
+  "Import styled-components": {
+    "prefix": "imsc",
+    "body": ["import styled from 'styled-components'"],
+    "description": "Import styled-components"
+  },
+  "Import Destructure": {
+    "prefix": "imd",
+    "body": ["import {$1} from '$2'"],
+    "description": "Import With Destructure"
+  },
+  "Console Log": {
+    "prefix": "cl",
+    "body": ["console.log($1)"],
+    "description": "Console Log"
+  }
+}

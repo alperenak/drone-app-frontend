@@ -1,0 +1,10 @@
+{
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"typescript.preferences.importModuleSpecifier": "non-relative",
+	"editor.formatOnSave": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	},
+	"eslint.workingDirectories": ["./apps/server", "./apps/web"],
+	"foldOnOpen.targets": ["AllMarkerRegions"]
+}
